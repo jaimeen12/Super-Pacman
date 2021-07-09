@@ -7,7 +7,7 @@ Super Pacman is an arcade game released in 1982 by Namco. It is a sequel to the 
 The game is implemented in C++ using the Object-Oriented Programming paradigm. The  SFML library is used to implement the graphics of the project.
 
 ## Requirements
--SFML 2.5.2 library
+-[SFML 2.5.2 library](https://www.sfml-dev.org/)
 
 ## Building the project
 - `g++ main.cpp -o main`

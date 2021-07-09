@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gitproject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gitproject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../Libraries/SFML-2.5.1/lib/libsfml-audio.a" />
+					<Add library="../Libraries/SFML-2.5.1/lib/libsfml-graphics.a" />
+					<Add library="../Libraries/SFML-2.5.1/lib/libsfml-network.a" />
+					<Add library="../Libraries/SFML-2.5.1/lib/libsfml-system.a" />
+					<Add library="../Libraries/SFML-2.5.1/lib/libsfml-window.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gitproject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/Fruit.cpp" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/Fruit.h" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/Game.cpp" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/Game.h" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/Ghost.h" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/Maze.cpp" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/Maze.h" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/Player.cpp" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/Player.h" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/SplashScreen.cpp" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/SplashScreen.h" />
+		<Unit filename="../Project Github/2020-project-1101381-Prim-1855116-Lalloo/game-source-code/main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
